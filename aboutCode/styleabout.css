@@ -1,0 +1,278 @@
+body {
+    background-image: url('aboutBkg.png');
+    background-size: 100%;
+    font-size: 100%
+}
+.navbar-custom {
+    background-color: rgb(255, 206, 198);
+}
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: rgb(255, 206, 198);
+}
+.navBarIcons {
+    display: grid;
+    height: auto;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(255, 206, 198);
+}
+.navBarLogo {
+    padding: 15px;
+}
+.navButton {
+    color: #13278A;
+}
+a {
+    text-decoration: none;
+    color: #13278A;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface';
+    color: #13278A;
+    
+}
+.aboutinfo
+
+{
+    text-align: left;
+    color: #13278A;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    padding: 20px; 
+    width: 75%;
+    height: 400px;  
+    height: 400px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, #FFCEC6, #FFDBED);
+    margin-left: 10%;
+    padding-top: 103px;
+    margin-top: 126px;
+  }
+
+  .aboutquiz {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+}
+
+.quizimage {
+    justify-content: right;
+}
+
+.button {
+    background-color: #3448C9;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding-left: 20px;
+  }
+
+  h2 {
+      padding-left: 20px;
+      font-family: 'Poppins', sans-serif, bold;
+      color: #13278A;
+  }
+
+  .button:hover {background-color: #3448C9}
+
+.button:active {
+  background-color: #3448C9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+  img {
+    max-width: 100%;
+    max-height: 50%;
+    padding-top:10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.rowban {
+
+    width: 50%;
+
+}
+
+.card-img-top {
+    size: 100%;
+
+}
+
+.content {
+border-radius: 25px;
+padding: 20px; 
+width: 75%;
+height: 500px;  
+height: 500px;
+background-color: rgb(241, 241, 241); /* For browsers that do not support gradients */
+margin-left: 15%;
+margin-top: 103px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 348.08px;
+    background-color: #FFCEC6;
+    color: #13278A;
+    text-align: center;
+    margin-top: 107px;
+ }
+
+ .aboutinfo {
+     margin-left: 374px;
+     margin-right: 374px;
+     max-width: max-content;
+ }
+
+ h1 {
+
+    margin-top: 126px;
+ }
+
+ .ban {
+
+    margin-top: 126px;
+    color: rgb(20, 20, 20);
+    text-align: center;
+ }
+
+
+.footertext {
+    font-size:2vw;
+    text-align: left;
+ }
+
+ .imgfooter {
+     justify-content: left;
+ }
+
+ .footertext {
+     text-align: left;
+ }
+
+ footer {
+    background-color: #FFCEC6;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+#footerBody {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #13278A;
+    text-align: left;
+}
+.footerDiv {
+    width: 25%;
+}
+.footerIcons {
+    font-size: 19px;
+    text-align: left;
+}
+.navButtonFooter {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 19px;
+}
+.footerRight {
+    display: flex;
+    flex-direction: column;
+}
+#FRHead {
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    color: #13278A;
+    font-size: 18px;
+}
+#FRAddress {
+    font-family: 'poppins', sans-serif;
+    color: #13278A;
+    font-size: 16px;
+}
+.footerLogo {
+    justify-content: left;
+}  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: center;
+    width: 25%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  
+.team {
+      text-align: center;
+  }
+  .button {
+    background-color: #13278A;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
